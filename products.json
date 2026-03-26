@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "name": "Nilsoft Product Registry",
+    "version": "1.0.0",
+    "generated": "2026-03-27T00:00:00Z"
+  },
+
+  "products": [
+    {
+      "id": "example-module",
+      "type": "module",
+      "name": "Example Module",
+      "description": "Operator‑grade system module for Nil‑AOS.",
+      "version": "1.0.0",
+      "icon": "/assets/images/products/example.png",
+      "page": "/products/modules/example-module/",
+      "download": "/downloads/modules/example-module/v1.0.0.zip",
+      "hash": "sha256‑EXAMPLEHASH123",
+      "docs": "/docs/modules/example-module.md",
+      "tags": ["module", "system", "operator"]
+    },
+
+    {
+      "id": "example-agent",
+      "type": "agent",
+      "name": "Example Agent",
+      "description": "Autonomous operator‑aligned agent for Nil‑AOS.",
+      "version": "1.1.0",
+      "icon": "/assets/images/products/example-agent.png",
+      "page": "/products/agents/example-agent/",
+      "download": "/downloads/agents/example-agent/v1.1.0.zip",
+      "hash": "sha256‑EXAMPLEHASH456",
+      "docs": "/docs/agents/example-agent.md",
+      "tags": ["agent", "automation", "operator"]
+    },
+
+    {
+      "id": "example-bundle",
+      "type": "bundle",
+      "name": "Example Bundle",
+      "description": "A curated set of modules and agents for new Operators.",
+      "version": "1.0.0",
+      "icon": "/assets/images/products/example-bundle.png",
+      "page": "/products/bundles/example-bundle/",
+      "download": "/downloads/bundles/example-bundle/v1.0.0.zip",
+      "hash": "sha256‑EXAMPLEHASH789",
+      "docs": "/docs/bundles/example-bundle.md",
+      "tags": ["bundle", "starter", "operator"]
+    }
+  ]
+}

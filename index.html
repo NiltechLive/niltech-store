@@ -3,6 +3,77 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nilsoft Store — Operator‑Grade Modules for Nil‑AOS</title>
+    <title>Modules — Nilsoft Store</title>
 
     <!-- Core Styles -->
+    <link rel="stylesheet" href="/assets/css/reset.css">
+    <link rel="stylesheet" href="/assets/css/layout.css">
+    <link rel="stylesheet" href="/assets/css/typography.css">
+    <link rel="stylesheet" href="/assets/css/components.css">
+    <link rel="stylesheet" href="/assets/css/theme.css">
+
+    <meta name="description" content="Browse all Nilsoft modules for Nil‑AOS. Operator‑grade system extensions built with doctrine and precision.">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header class="ns-header">
+        <div class="ns-header-left">
+            <img src="/assets/glyphs/niltech-emblem.svg" alt="Niltech Emblem" class="ns-emblem">
+            <span class="ns-title">NILSOFT</span>
+        </div>
+
+        <nav class="ns-nav">
+            <a href="/">Home</a>
+            <a href="/products/">Products</a>
+            <a href="/downloads/">Downloads</a>
+            <a href="/docs/">Docs</a>
+        </nav>
+    </header>
+
+    <!-- HERO -->
+    <section class="ns-section" style="max-width: 900px; margin: 0 auto; text-align: center;">
+        <h1>Modules</h1>
+        <p class="ns-hero-sub" style="margin-top: 16px;">
+            Operator‑grade system modules for Nil‑AOS.  
+            Built with doctrine, precision, and deterministic execution.
+        </p>
+    </section>
+
+    <!-- MODULE GRID -->
+    <section class="ns-section" style="max-width: 1100px; margin: 0 auto;">
+        <h2 class="ns-section-title">All Modules</h2>
+        <div class="ns-product-grid" id="modules-grid">
+            <!-- Populated dynamically -->
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="ns-footer">
+        <div class="ns-footer-left">
+            <img src="/assets/glyphs/niltech-emblem.svg" class="ns-footer-emblem">
+            <span>NILSOFT</span>
+        </div>
+
+        <div class="ns-footer-links">
+            <a href="/docs/">Documentation</a>
+            <a href="/products/">Products</a>
+            <a href="/downloads/">Downloads</a>
+        </div>
+
+        <div class="ns-footer-meta">
+            <span>© Nilsoft. A Niltech System.</span>
+        </div>
+    </footer>
+
+    <!-- PRODUCT GRID SCRIPT -->
+    <script src="/assets/js/product-grid.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            loadProductGrid('#modules-grid', 'module');
+        });
+    </script>
+
+</body>
+</html>
